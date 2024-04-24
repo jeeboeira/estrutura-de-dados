@@ -15,17 +15,25 @@ public class Calculadora {
         Queue<String> filaPosFixa = new LinkedBlockingQueue<>();
 
         Passo1(filaInfixa);
+        Passo2(filaInfixa, pilhaConv, filaPosFixa);
 
+    }
+    public static void Passo1 (Queue filaInfixa){
+        String exp = scan.nextLine();
+        String[] simbolos = exp.split(" ");
 
+        for (String simb : simbolos) {
+            filaInfixa.add(simb);
+        }
+    }
 
-
-
+    public static void Passo2 (Queue filaInfixa, Stack pilhaConv, Queue filaPosFixa) {
         while (!filaInfixa.isEmpty()){//passo2
             if (filaInfixa.peek().equals("(")){//passo6
                 pilhaConv.add(filaInfixa.poll());//passo7
             } else if (filaInfixa.peek().equals("+") || filaInfixa.peek().equals("-")
                     || filaInfixa.peek().equals("/") ||filaInfixa.peek().equals("*") ) {
-                while (!pilhaConv.isEmpty() && Comparator(filaInfixa.peek(),pilhaConv.peek())){
+                while (!pilhaConv.isEmpty() && Comparator((String) filaInfixa.peek(), (String) pilhaConv.peek())){
                     filaPosFixa.add(pilhaConv.pop());
                 }
                 pilhaConv.add(filaInfixa.poll());
@@ -43,14 +51,6 @@ public class Calculadora {
             filaPosFixa.add(pilhaConv.pop());
         }
         System.out.println("Final? " + filaPosFixa);
-    }
-    public static void Passo1 (Queue filaInfixa){
-        String exp = scan.nextLine();
-        String[] simbolos = exp.split(" ");
-
-        for (String simb : simbolos) {
-            filaInfixa.add(simb);
-        }
     }
 
     public static boolean Comparator (String filaInfixa, String pilhaConv) {
