@@ -15,17 +15,34 @@ public class TestQueue {
         while (!fila.isEmpty()){
             System.out.println(fila.poll());
         }
-        Comparator("+","c");
+        //Comparator("+","c");
+        System.out.println(Atribueitor("/"));
     }
-    public static boolean Comparator (String a, String b){
-        switch (a) {
-            case "-" :
-                int aa = 1;
-                break;
-            case "+" :
-                aa = 1;
-                break;
+
+    public static boolean Comparator (String filaInfixa, String pilhaConv) {
+        int vlrFila = Atribueitor(filaInfixa);
+        int vlrPilha = Atribueitor(pilhaConv);
+        if(vlrPilha >= vlrFila){
+            return true;
         }
-        return true;
+        return false;
+    }
+
+    public static int Atribueitor (String opr) {
+        switch (opr) {
+            case "(" :
+                return 0;
+            case ")" :
+                return 0;
+            case "+" :
+                 return 1;
+            case "-" :
+                return 1;
+            case "*" :
+                return 2;
+            case "/" :
+                return 2;
+        }
+        return -1;
     }
 }

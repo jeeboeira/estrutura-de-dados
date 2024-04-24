@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Commit da aula">
-      <change afterPath="$PROJECT_DIR$/src/AtividadePratica4/ED-TADS 2024-01 - Atividade prática 4 - Calculadora de expressões matemáticas.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/Recursividade/Palindromo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/Recursividade/Palindromo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,10 @@
     "Application.lists.executor": "Debug",
     "Application.oi.executor": "Run",
     "Application.sera.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -90,7 +93,7 @@
       <recent name="AtividadePratica1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestQueue">
+  <component name="RunManager" selected="Application.Calculadora">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AtividadePratica4.Calculadora" />
       <module name="estrutura-de-dados" />
@@ -158,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.Calculadora" />
+        <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.Fatorial" />
         <item itemvalue="Application.oi" />
         <item itemvalue="Application.MainNodo" />
@@ -191,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713950848543</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit da aula">
+      <option name="closed" value="true" />
+      <created>1713979990591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713979990591</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,87 +225,141 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
+          <line>52</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
+          <line>56</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
+          <line>57</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
+          <line>58</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="7" />
+          <line>59</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java</url>
-          <line>19</line>
-          <properties class="AtividadePratica4.TestQueue" method="Comparator">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>55</line>
+          <properties class="AtividadePratica4.Calculadora" method="Comparator">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java</url>
+          <line>64</line>
+          <properties class="AtividadePratica4.Calculadora" method="Atribueitor">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
