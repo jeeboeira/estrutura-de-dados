@@ -18,6 +18,8 @@ public class Calculadora {
         Passo2(filaInfixa, pilhaConv, filaPosFixa);
 
     }
+
+
     public static void Passo1 (Queue filaInfixa){
         String exp = scan.nextLine();
         String[] simbolos = exp.split(" ");
