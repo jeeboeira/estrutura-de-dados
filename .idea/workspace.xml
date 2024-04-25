@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Passo 2 Completo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" afterDir="false" />
-    </list>
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Programa Completo! :tada:" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -230,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713993942891</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Programa Completo! :tada:">
+      <option name="closed" value="true" />
+      <created>1714017663113</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714017663113</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +252,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit da aula" />
     <MESSAGE value="Passo 2 Completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passo 2 Completo" />
+    <MESSAGE value="Programa Completo! :tada:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa Completo! :tada:" />
   </component>
 </project>
