@@ -1,6 +1,5 @@
 package AtividadePratica4;
 
-import java.util.Comparator;
 import java.util.Queue;
 import java.util.Scanner;
 import java.util.Stack;
@@ -13,11 +12,13 @@ public class Calculadora {
         Queue<String> filaInfixa = new LinkedBlockingQueue<>();
         Stack<String> pilhaConv = new Stack<>();
         Queue<String> filaPosFixa = new LinkedBlockingQueue<>();
+        Stack<Integer> pilhaCalc = new Stack<>();
 
         Passo1(filaInfixa);
         Passo2(filaInfixa, pilhaConv, filaPosFixa);
-
+        Passo3(filaPosFixa, pilhaCalc);
     }
+
 
 
     public static void Passo1 (Queue filaInfixa){
@@ -33,8 +34,7 @@ public class Calculadora {
         while (!filaInfixa.isEmpty()){//passo2
             if (filaInfixa.peek().equals("(")){//passo6
                 pilhaConv.add(filaInfixa.poll());//passo7
-            } else if (filaInfixa.peek().equals("+") || filaInfixa.peek().equals("-")
-                    || filaInfixa.peek().equals("/") ||filaInfixa.peek().equals("*") ) {
+            } else if (isOperando(filaInfixa)) {
                 while (!pilhaConv.isEmpty() && Comparator((String) filaInfixa.peek(), (String) pilhaConv.peek())){
                     filaPosFixa.add(pilhaConv.pop());
                 }
@@ -52,7 +52,34 @@ public class Calculadora {
         while (!pilhaConv.isEmpty()){
             filaPosFixa.add(pilhaConv.pop());
         }
-        System.out.println("Final? " + filaPosFixa);
+        //System.out.println("FilaPosFixa: " + filaPosFixa);
+    }
+
+    public static void Passo3(Queue filaPosFixa, Stack pilhaCalc) {
+        while (!filaPosFixa.isEmpty()){
+            if (isOperando(filaPosFixa)){
+                Integer operandoA = (Integer) pilhaCalc.pop();
+                Integer operandoB = (Integer) pilhaCalc.pop();
+                pilhaCalc.add(Resultado((String) filaPosFixa.poll(), operandoA, operandoB));
+            } else {
+                pilhaCalc.add(Integer.valueOf((String) filaPosFixa.poll()));
+            }
+        }
+        System.out.println(pilhaCalc.peek());
+    }
+
+    public static Integer Resultado(String opr, Integer operandoA, Integer operandoB) {
+        switch (opr) {
+            case "+" :
+                return operandoB + operandoA;
+            case "-" :
+                return operandoB - operandoA;
+            case "*" :
+                return operandoB * operandoA;
+            case "/" :
+                return operandoB / operandoA;
+        }
+        return -1;
     }
 
     public static boolean Comparator (String filaInfixa, String pilhaConv) {
@@ -80,5 +107,13 @@ public class Calculadora {
                 return 2;
         }
         return -1;
+    }
+
+    public static boolean isOperando(Queue filaInfixa) {
+        if (filaInfixa.peek().equals("+") || filaInfixa.peek().equals("-")
+                || filaInfixa.peek().equals("/") ||filaInfixa.peek().equals("*")) {
+            return true;
+        }
+        return false;
     }
 }

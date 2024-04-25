@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Passo 2 Completo" />
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Passo 2 Completo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="BranchPraTeste" />
+        <entry key="$PROJECT_DIR$" value="BranchIsOperando" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AlarmeDespertador.executor": "Run",
-    "Application.Calculadora.executor": "Debug",
+    "Application.Calculadora.executor": "Run",
     "Application.DivisaoDaNlogonia.executor": "Run",
     "Application.EsquerdaVolver.executor": "Run",
     "Application.MainNodo.executor": "Run",
@@ -162,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.oi" />
         <item itemvalue="Application.MainNodo" />
         <item itemvalue="Application.Fatorial" />
-        <item itemvalue="Application.Calculadora" />
       </list>
     </recent_temporary>
   </component>
