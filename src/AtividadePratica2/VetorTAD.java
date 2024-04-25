@@ -1,7 +1,5 @@
 package AtividadePratica2;
 
-import javax.imageio.IIOException;
-import java.io.File;
 import java.util.Arrays;
 
 public class VetorTAD {
@@ -29,6 +27,7 @@ public class VetorTAD {
         for (int i : vetor) {
             System.out.print(i + " ");
         }
+        System.out.println("");
     }
 
     @Override
@@ -38,22 +37,6 @@ public class VetorTAD {
                 ", numElementos=" + numElementos +
                 '}';
     }
-
-    //Não ta rolando, voltar aqui depois, ver se vou usar tratamento de exceção ou o que
-    /*public int acessa(int pos) throws Exception {
-        if (pos < 0 || pos > vetor.length) {
-            System.out.println("Posição fora dos limites");
-        }
-        try {
-            return vetor[pos];
-        }
-        catch (Exception e) {
-            e.getStackTrace();
-            System.out.println("oh");
-
-        }
-        return vetor[pos];
-    }*/
 
     public int acessa (int pos) {
         int valor = 0;
@@ -72,7 +55,7 @@ public class VetorTAD {
         }
         else {
             vetor[numElementos] = valor;
-            numElementos ++; //numElementos = numElementos + 1;
+            numElementos ++;
         }
     }
 
@@ -89,20 +72,19 @@ public class VetorTAD {
         }
     }
 
-    /*voltar depois e resolver, quando inserir, jogar os outros pra frente, se ele estiver
-    se ele estiver muito na frente, fazer voltar até a ultima próxima posição*/
-
     public void insere(int pos, int valor) {
         if(estaCheia()) {
             System.out.println("Vetor cheio! Elemento não inserido!");
-        }
-        else {
+        } else if (pos == 0) {
+            insereInicio(valor);
+        } else if (pos >= numElementos - 1) {
+            insereFinal(valor);
+        } else{
+            for (int i = numElementos; i >= pos + 1 ; i--) {
+                vetor[i] = vetor[i-1];
+            }
             vetor[pos] = valor;
-            /*aqui me perdi muito, posso validar se o valor for == 0 e colocar numElem++
-            porém se foi passado o valor 0 para alguma posição, ele vai ser um dado válido.
-            e também vai dar problemas no insere inicio, final.
-             */
-            //numElementos ++; //numElementos = numElementos + 1;
+            numElementos ++;
         }
     }
 
@@ -129,10 +111,16 @@ public class VetorTAD {
     public void remove(int pos) {
         if (estaVazia()){
             System.out.println("Vetor vazio! Nenhum elemento removido!");
+        } else if (pos > numElementos - 1) {
+            System.out.println("Posição fora dos limites");
+        } else if (vetor[pos] == 0) {
+            System.out.println("Posição vazia! Nenhum elemento removido!");
         } else {
-            vetor[pos] = 0;
-            /* Teria que fazer a validação do local, se puxa os dados, se está na ultima posição
-            coisas que vou revisar outra hora.*/
+            for (int i = pos; i <= numElementos - 2 ; i++) {
+                vetor[i] = vetor[i+1];
+            }
+            vetor[numElementos-1]=0;
+            numElementos--;
         }
     }
 

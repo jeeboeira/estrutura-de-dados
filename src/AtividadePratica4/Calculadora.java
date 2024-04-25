@@ -58,9 +58,7 @@ public class Calculadora {
     public static void Passo3(Queue filaPosFixa, Stack pilhaCalc) {
         while (!filaPosFixa.isEmpty()){
             if (isOperando(filaPosFixa)){
-                Integer operandoA = (Integer) pilhaCalc.pop();
-                Integer operandoB = (Integer) pilhaCalc.pop();
-                pilhaCalc.add(Resultado((String) filaPosFixa.poll(), operandoA, operandoB));
+                pilhaCalc.add(Resultado((String) filaPosFixa.poll(), (Integer) pilhaCalc.pop(), (Integer) pilhaCalc.pop()));
             } else {
                 pilhaCalc.add(Integer.valueOf((String) filaPosFixa.poll()));
             }

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Programa Completo! :tada:" />
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Programa Completo! :tada:">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtividadePratica2/MainVetorTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica2/MainVetorTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtividadePratica2/VetorTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica2/VetorTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica4/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtividadePratica4/TestQueue.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="BranchIsOperando" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,7 +86,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "main-passo3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/jesse/Área de Trabalho/Desktop/Terceiro-Semestre/estrutura-de-dados",
     "settings.editor.selected.configurable": "advanced.settings"
@@ -94,7 +100,7 @@
       <recent name="AtividadePratica1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calculadora">
+  <component name="RunManager" selected="Application.MainNodo">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AtividadePratica4.Calculadora" />
       <module name="estrutura-de-dados" />
@@ -108,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fatorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aulas.Recursividade.Fatorial" />
+    <configuration name="MainNodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtividadePratica3.MainNodo" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aulas.Recursividade.*" />
+          <option name="PATTERN" value="AtividadePratica3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainNodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica3.MainNodo" />
+    <configuration name="MainVetorTAD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtividadePratica2.MainVetorTAD" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtividadePratica3.*" />
+          <option name="PATTERN" value="AtividadePratica2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainNodo" />
+        <item itemvalue="Application.MainVetorTAD" />
         <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.oi" />
-        <item itemvalue="Application.MainNodo" />
-        <item itemvalue="Application.Fatorial" />
       </list>
     </recent_temporary>
   </component>
