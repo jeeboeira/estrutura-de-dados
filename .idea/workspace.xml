@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Programa Completo! :tada:">
-      <change afterPath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/Nodo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aulas/Recursividade/Palindromo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/Recursividade/Palindromo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Branch-Aula29-04-24.Recursividade" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +52,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2dtEH3WMvqd4J8KrAjEh9rEo79P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +66,7 @@
     "Application.MainNodo.executor": "Run",
     "Application.MainVetorTAD.executor": "Run",
     "Application.OJogoMatematicoDePaula.executor": "Run",
+    "Application.Palindromo.executor": "Run",
     "Application.Sudoku.executor": "Run",
     "Application.Sudoku2.executor": "Debug",
     "Application.Sudoku3.executor": "Run",
@@ -88,7 +87,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Branch-Aula29-04-24",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/5220336/Desktop/ArvoreTAD",
     "project.structure.last.edited": "Project",
@@ -173,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainArvore" />
-        <item itemvalue="Application.MainNodo" />
-        <item itemvalue="Application.MainVetorTAD" />
-        <item itemvalue="Application.Calculadora" />
         <item itemvalue="Application.TestQueue" />
+        <item itemvalue="Application.MainVetorTAD" />
+        <item itemvalue="Application.MainNodo" />
+        <item itemvalue="Application.MainArvore" />
+        <item itemvalue="Application.Calculadora" />
       </list>
     </recent_temporary>
   </component>
