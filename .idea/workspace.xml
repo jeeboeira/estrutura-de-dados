@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Programa Completo! :tada:">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Finalizado Exercício Recursividade :tada:">
+      <change afterPath="$PROJECT_DIR$/src/AtividadePratica5/ED-TADS 2024-01 - Atividade prática 5 - Funções recursivas.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AtividadePratica5/FuncoesRecursivas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/Recursividade/Palindromo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/Recursividade/Palindromo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     "Application.Calculadora.executor": "Run",
     "Application.DivisaoDaNlogonia.executor": "Run",
     "Application.EsquerdaVolver.executor": "Run",
+    "Application.FuncoesRecursivas.executor": "Debug",
     "Application.MainNodo.executor": "Run",
     "Application.MainVetorTAD.executor": "Run",
     "Application.OJogoMatematicoDePaula.executor": "Run",
@@ -87,7 +88,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Branch-Aula29-04-24",
+    "git-widget-placeholder": "Branch-Aula29-04-24.Atv5",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/5220336/Desktop/ArvoreTAD",
     "project.structure.last.edited": "Project",
@@ -104,13 +105,13 @@
       <recent name="AtividadePratica1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainArvore">
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica4.Calculadora" />
+  <component name="RunManager" selected="Application.FuncoesRecursivas">
+    <configuration name="FuncoesRecursivas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtividadePratica5.FuncoesRecursivas" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtividadePratica4.*" />
+          <option name="PATTERN" value="AtividadePratica5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncoesRecursivas" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.MainVetorTAD" />
         <item itemvalue="Application.MainNodo" />
         <item itemvalue="Application.MainArvore" />
-        <item itemvalue="Application.Calculadora" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714056660250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finalizado Exercício Recursividade :tada:">
+      <option name="closed" value="true" />
+      <created>1714540865952</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714540865952</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +280,7 @@
     <MESSAGE value="Commit da aula" />
     <MESSAGE value="Passo 2 Completo" />
     <MESSAGE value="Programa Completo! :tada:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa Completo! :tada:" />
+    <MESSAGE value="Finalizado Exercício Recursividade :tada:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizado Exercício Recursividade :tada:" />
   </component>
 </project>
