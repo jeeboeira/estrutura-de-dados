@@ -47,14 +47,12 @@ public class ArvoreTAD {
             else {//n.dir != null
                 insereRec(elem, n.dir);
             }
-        }else{
-            if (elem > n.elem) {
-                if (n.esq == null) {
-                    n.esq = new Nodo(elem);
-                }
-            } else {//n.esq != null
-                insereRec(elem, n.esq);
+        }else if (elem < n.elem) {
+            if (n.esq == null) {
+                n.esq = new Nodo(elem);
             }
+        }else {//n.esq != null
+            insereRec(elem, n.esq);
         }
     }
 
@@ -74,15 +72,20 @@ public class ArvoreTAD {
         }
     }
 
-   /* public void imprimeEmOrdem() {
-        throw new NotImplementedException();
+   public void imprimeEmOrdem() {
+        imprimeEmOrdemRec(raiz);
     }
 
     private void imprimeEmOrdemRec(Nodo n) {
-        throw new NotImplementedException();
+        if (n != null){
+            //passo
+            imprimeEmOrdemRec(n.dir);
+            System.out.println(n.elem + " ");
+            imprimeEmOrdemRec(n.esq);
+        }
     }
 
-    public void imprimePosOrdem() {
+    /* public void imprimePosOrdem() {
         throw new NotImplementedException();
     }
 
