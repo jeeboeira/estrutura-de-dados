@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Finalizado Exercício Recursividade :tada:">
-      <change afterPath="$PROJECT_DIR$/src/NOTAS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aulas/TabelaHash/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aulas/TabelaHash/MainHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aulas/TabelaHash/TabelaHashTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +107,13 @@
       <recent name="AtividadePratica1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainArvore">
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica4.Calculadora" />
+  <component name="RunManager" selected="Application.MainHash">
+    <configuration name="MainArvore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aulas.ArvoresBinarias.MainArvore" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtividadePratica4.*" />
+          <option name="PATTERN" value="Aulas.ArvoresBinarias.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainArvore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aulas.ArvoresBinarias.MainArvore" />
+    <configuration name="MainHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aulas.TabelaHash.MainHash" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Aulas.ArvoresBinarias.*" />
+          <option name="PATTERN" value="Aulas.TabelaHash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainHash" />
         <item itemvalue="Application.MainArvore" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.MainVetorTAD" />
         <item itemvalue="Application.MainNodo" />
-        <item itemvalue="Application.Calculadora" />
       </list>
     </recent_temporary>
   </component>
@@ -274,5 +275,16 @@
     <MESSAGE value="Passo 2 Completo" />
     <MESSAGE value="Programa Completo! :tada:" />
     <option name="LAST_COMMIT_MESSAGE" value="Programa Completo! :tada:" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Aulas/TabelaHash/MainHash.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
