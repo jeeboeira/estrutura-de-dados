@@ -11,9 +11,9 @@ public class Aluno {
         this.email = email;
     }
 
-    public String getMatricula() {
+   /* public String getMatricula() {
         return matricula;
-    }
+    }*/
 
     public void setMatricula(int matricula) {
         this.matricula = matricula;

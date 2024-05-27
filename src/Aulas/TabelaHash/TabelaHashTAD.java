@@ -20,7 +20,7 @@ public class TabelaHashTAD {
         return Math.abs(chave.hashCode()) % M;
     }
 
-    public void insere(Aluno aluno){
+   /* public void insere(Aluno aluno){
         int posicao = hash(aluno.getEmail());
         LinkedList<Aluno> lista = tabela[posicao];
         for (int i = 0; i < lista.size(); i++) {
@@ -31,7 +31,7 @@ public class TabelaHashTAD {
             }
         }
         lista.add(aluno);
-    }
+    }*/
 
     public void imprime(){
         for (int i = 0; i < M; i++) {
