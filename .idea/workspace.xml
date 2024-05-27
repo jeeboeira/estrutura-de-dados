@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Aula 20/05/2024 Tabela Hash">
-      <change afterPath="$PROJECT_DIR$/src/Aulas/ConjuntosMapeamentos/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aulas/ConjuntosMapeamentos/Conjunto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aulas/ConjuntosMapeamentos/MainAluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/TabelaHash/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/TabelaHash/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/TabelaHash/MainHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/TabelaHash/MainHash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/TabelaHash/TabelaHashTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/TabelaHash/TabelaHashTAD.java" afterDir="false" />
-    </list>
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Aula 20/05/2024 Tabela Hash" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716254075968</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Aula 20/05/2024 Tabela Hash">
+      <created>1716853109110</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716853109110</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
