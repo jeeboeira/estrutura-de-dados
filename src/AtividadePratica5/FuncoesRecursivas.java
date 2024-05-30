@@ -5,6 +5,9 @@ public class FuncoesRecursivas {
         System.out.println(div(1,1));
         System.out.println(div(1,2));
         System.out.println(div(5,4));
+
+        System.out.println(contaDigito(2, 762021192));
+
     }
     public static int div(int x, int y) {
         if (x == y){
@@ -14,5 +17,10 @@ public class FuncoesRecursivas {
         } else {
             return 1 + div(x-y,y);
         }
+    }
+
+
+    public static  int contaDigito(int K, int N){
+
     }
 }
