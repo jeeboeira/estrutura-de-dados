@@ -15,15 +15,23 @@ public class ArvoreTAD {
         return raiz == null;
     }
 
-    /*public int tamanho() {
-        throw new NotImplementedException();
+   /* public int tamanho() {
+
+        if (estaVazia()){
+            System.out.println("0");
+        } else {
+           tamanhoRec(raiz);
+        }
     }
 
     private int tamanhoRec(Nodo n) {
-        throw new NotImplementedException();
+        if (n.esq != null){
+            n = n.esq;
+            tamanhoRec(n);
+        }
     }
 
-    public void limpa() {
+   /* public void limpa() {
         throw new NotImplementedException();
     }*/
 
