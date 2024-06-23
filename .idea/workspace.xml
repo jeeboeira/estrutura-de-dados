@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Programa Completo! :tada:">
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Atividade 5 Completa! :tada:">
+      <change afterPath="$PROJECT_DIR$/src/AtividadePratica6/ED-TADS 2024-01 - Atividade prática 6 - TAD Árvores binárias.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AtividadePratica7/ED-TADS 2024-01 - Atividade prática 7 - Conjuntos e mapeamentos.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AtividadePratica5/ContaDigito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AtividadePratica5/FuncoesRecursivas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica5/FuncoesRecursivas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Branch-Aula29-04-24.Recursividade" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,9 +91,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Branch-Aula29-04-24.Atv5",
+    "git-widget-placeholder": "Atividade6",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/5220336/Desktop/ArvoreTAD",
+    "last_opened_file_path": "/home/jesse/Área de Trabalho/Desktop/Terceiro-Semestre/Interação-Humano-Computador/estrutura-de-dados/src/AtividadePratica6",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -178,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FuncoesRecursivas" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ContaDigito" />
-        <item itemvalue="Application.MainArvore" />
         <item itemvalue="Application.TestQueue" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.MainArvore" />
+        <item itemvalue="Application.FuncoesRecursivas" />
+        <item itemvalue="Application.ContaDigito" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +257,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714056660250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Atividade 5 Completa! :tada:">
+      <option name="closed" value="true" />
+      <created>1718584210934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718584210934</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Atividade 5 Completa! :tada:">
+      <option name="closed" value="true" />
+      <created>1718584224011</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718584224011</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Atividade 5 Completa! :tada:">
+      <option name="closed" value="true" />
+      <created>1718584232459</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718584232459</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +289,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -277,7 +311,8 @@
     <MESSAGE value="Commit da aula" />
     <MESSAGE value="Passo 2 Completo" />
     <MESSAGE value="Programa Completo! :tada:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa Completo! :tada:" />
+    <MESSAGE value="Atividade 5 Completa! :tada:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade 5 Completa! :tada:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -285,7 +320,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
           <line>26</line>
-          <properties class="Aulas.ArvoresBinarias.ArvoreTAD" method="insere">
+          <properties class="Aulas.ArvoresBinarias.ArvoreTAD">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
