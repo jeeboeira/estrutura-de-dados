@@ -18,6 +18,7 @@ public class MainArvore {
         arv.imprimeArvore();
         System.out.println(arv.estaVazia());
         System.out.println(arv.pesquisa(10));
+        //arv.tamanho();
     }
 
 }

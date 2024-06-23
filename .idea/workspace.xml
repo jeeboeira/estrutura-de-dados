@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Atividade 5 Completa! :tada:">
-      <change afterPath="$PROJECT_DIR$/src/AtividadePratica6/ED-TADS 2024-01 - Atividade prática 6 - TAD Árvores binárias.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AtividadePratica7/ED-TADS 2024-01 - Atividade prática 7 - Conjuntos e mapeamentos.pdf" afterDir="false" />
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Início Atividade 6">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_06_2024_19_39_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_06_2024_19_39__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23_06_2024_11_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23_06_2024_11_04__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica6/ArvoreTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica6/MainArvore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica6/Nodo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +64,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AlarmeDespertador.executor": "Run",
+    "Application.AtividadePratica6.MainArvore.executor": "Run",
     "Application.Calculadora.executor": "Run",
     "Application.ContaDigito.executor": "Run",
     "Application.DivisaoDaNlogonia.executor": "Run",
     "Application.EsquerdaVolver.executor": "Run",
     "Application.FuncoesRecursivas.executor": "Run",
-    "Application.MainArvore.executor": "Run",
+    "Application.MainArvore.executor": "Debug",
     "Application.MainNodo.executor": "Run",
     "Application.MainVetorTAD.executor": "Run",
     "Application.OJogoMatematicoDePaula.executor": "Run",
@@ -93,7 +98,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "Atividade6",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jesse/Área de Trabalho/Desktop/Terceiro-Semestre/Interação-Humano-Computador/estrutura-de-dados/src/AtividadePratica6",
+    "last_opened_file_path": "/home/jesse/Área de Trabalho/Desktop/Terceiro-Semestre/Interação-Humano-Computador/estrutura-de-dados/src/Aulas/ArvoresBinarias",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -102,19 +107,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Aulas/ArvoresBinarias" />
+      <recent name="$PROJECT_DIR$/src/AtividadePratica6" />
       <recent name="$PROJECT_DIR$/src/AtividadePratica3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="AtividadePratica1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FuncoesRecursivas">
-    <configuration name="ContaDigito" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica5.ContaDigito" />
+  <component name="RunManager" selected="Application.AtividadePratica6.MainArvore">
+    <configuration name="AtividadePratica6.MainArvore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtividadePratica6.MainArvore" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtividadePratica5.*" />
+          <option name="PATTERN" value="AtividadePratica6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtividadePratica6.MainArvore" />
+        <item itemvalue="Application.MainArvore" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MainArvore" />
         <item itemvalue="Application.FuncoesRecursivas" />
-        <item itemvalue="Application.ContaDigito" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718584232459</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Início Atividade 6">
+      <option name="closed" value="true" />
+      <created>1719151596201</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719151596201</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,171 +327,7 @@
     <MESSAGE value="Passo 2 Completo" />
     <MESSAGE value="Programa Completo! :tada:" />
     <MESSAGE value="Atividade 5 Completa! :tada:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade 5 Completa! :tada:" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>26</line>
-          <properties class="Aulas.ArvoresBinarias.ArvoreTAD">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Início Atividade 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Início Atividade 6" />
   </component>
 </project>
