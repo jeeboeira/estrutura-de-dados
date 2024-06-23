@@ -1,0 +1,30 @@
+Index: src/AtividadePratica5/FuncoesRecursivas.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package AtividadePratica5;\n\npublic class FuncoesRecursivas {\n    public static void main(String[] args) {\n        System.out.println(div(1,1));\n        System.out.println(div(1,2));\n        System.out.println(div(5,4));\n    }\n    public static int div(int x, int y) {\n        if (x == y){\n            return 1;\n        } else if (x < y) {\n            return 0;\n        } else {\n            return 1 + div(x-y,y);\n        }\n    }\n}\n
+===================================================================
+diff --git a/src/AtividadePratica5/FuncoesRecursivas.java b/src/AtividadePratica5/FuncoesRecursivas.java
+--- a/src/AtividadePratica5/FuncoesRecursivas.java	
++++ b/src/AtividadePratica5/FuncoesRecursivas.java	
+@@ -2,9 +2,12 @@
+ 
+ public class FuncoesRecursivas {
+     public static void main(String[] args) {
++        System.out.println("div:");
+         System.out.println(div(1,1));
+         System.out.println(div(1,2));
+         System.out.println(div(5,4));
++        System.out.print("-------------\nConta Digito");
++
+     }
+     public static int div(int x, int y) {
+         if (x == y){
+@@ -15,4 +18,8 @@
+             return 1 + div(x-y,y);
+         }
+     }
++
++    public static int contaDigito(int K, int N) {
++        
++    }
+ }

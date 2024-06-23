@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Programa Completo! :tada:" />
+    <list default="true" id="96fd56b9-e416-46ec-9dd9-21ade701320d" name="Changes" comment="Início Atividade 6">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_06_2024_19_39_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_06_2024_19_39__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23_06_2024_11_04__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_23_06_2024_11_04__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/ArvoreTAD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica6/ArvoreTAD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/MainArvore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica6/MainArvore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aulas/ArvoresBinarias/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtividadePratica6/Nodo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +56,7 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2dtEH3WMvqd4J8KrAjEh9rEo79P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,16 +64,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AlarmeDespertador.executor": "Run",
+    "Application.AtividadePratica6.MainArvore.executor": "Run",
     "Application.Calculadora.executor": "Run",
+    "Application.ContaDigito.executor": "Run",
     "Application.DivisaoDaNlogonia.executor": "Run",
     "Application.EsquerdaVolver.executor": "Run",
+    "Application.FuncoesRecursivas.executor": "Run",
+    "Application.MainArvore.executor": "Debug",
     "Application.MainNodo.executor": "Run",
     "Application.MainVetorTAD.executor": "Run",
     "Application.OJogoMatematicoDePaula.executor": "Run",
+    "Application.Palindromo.executor": "Run",
     "Application.Sudoku.executor": "Run",
     "Application.Sudoku2.executor": "Debug",
     "Application.Sudoku3.executor": "Run",
     "Application.Sudoku4.executor": "Debug",
+    "Application.Test.executor": "Run",
     "Application.TestQueue.executor": "Run",
     "Application.TesteValidacao.executor": "Debug",
     "Application.TesteValidação.executor": "Run",
@@ -81,27 +96,32 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Atividade6",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/jesse/Área de Trabalho/Desktop/Terceiro-Semestre/estrutura-de-dados",
+    "last_opened_file_path": "/home/jesse/Área de Trabalho/Desktop/Terceiro-Semestre/Interação-Humano-Computador/estrutura-de-dados/src/Aulas/ArvoresBinarias",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Aulas/ArvoresBinarias" />
+      <recent name="$PROJECT_DIR$/src/AtividadePratica6" />
       <recent name="$PROJECT_DIR$/src/AtividadePratica3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="AtividadePratica1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainNodo">
-    <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica4.Calculadora" />
+  <component name="RunManager" selected="Application.AtividadePratica6.MainArvore">
+    <configuration name="AtividadePratica6.MainArvore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtividadePratica6.MainArvore" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtividadePratica4.*" />
+          <option name="PATTERN" value="AtividadePratica6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainNodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica3.MainNodo" />
+    <configuration name="FuncoesRecursivas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtividadePratica5.FuncoesRecursivas" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtividadePratica3.*" />
+          <option name="PATTERN" value="AtividadePratica5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +142,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainVetorTAD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica2.MainVetorTAD" />
+    <configuration name="MainArvore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aulas.ArvoresBinarias.MainArvore" />
       <module name="estrutura-de-dados" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtividadePratica2.*" />
+          <option name="PATTERN" value="Aulas.ArvoresBinarias.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtividadePratica5.Test" />
+      <module name="estrutura-de-dados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AtividadePratica5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,26 +181,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtividadePratica3.oi" />
-      <module name="estrutura-de-dados" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AtividadePratica3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainNodo" />
-        <item itemvalue="Application.MainVetorTAD" />
-        <item itemvalue="Application.Calculadora" />
+        <item itemvalue="Application.AtividadePratica6.MainArvore" />
+        <item itemvalue="Application.MainArvore" />
         <item itemvalue="Application.TestQueue" />
-        <item itemvalue="Application.oi" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.FuncoesRecursivas" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +264,39 @@
       <option name="project" value="LOCAL" />
       <updated>1714056660250</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Atividade 5 Completa! :tada:">
+      <option name="closed" value="true" />
+      <created>1718584210934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718584210934</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Atividade 5 Completa! :tada:">
+      <option name="closed" value="true" />
+      <created>1718584224011</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718584224011</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Atividade 5 Completa! :tada:">
+      <option name="closed" value="true" />
+      <created>1718584232459</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718584232459</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Início Atividade 6">
+      <option name="closed" value="true" />
+      <created>1719151596201</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719151596201</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,7 +304,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -262,6 +326,8 @@
     <MESSAGE value="Commit da aula" />
     <MESSAGE value="Passo 2 Completo" />
     <MESSAGE value="Programa Completo! :tada:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa Completo! :tada:" />
+    <MESSAGE value="Atividade 5 Completa! :tada:" />
+    <MESSAGE value="Início Atividade 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Início Atividade 6" />
   </component>
 </project>
