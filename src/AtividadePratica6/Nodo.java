@@ -1,4 +1,4 @@
-package Aulas.ArvoresBinarias;
+package AtividadePratica6;
 
 public class Nodo {
     public int elem;
