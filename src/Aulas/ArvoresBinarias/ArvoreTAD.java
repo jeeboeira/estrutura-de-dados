@@ -1,7 +1,4 @@
 package Aulas.ArvoresBinarias;
-//import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
-import java.util.ArrayList;
 
 public class ArvoreTAD {
 
@@ -56,12 +53,12 @@ public class ArvoreTAD {
                 insereRec(elem, n.dir);
             }
         }else{
-            if (elem > n.elem) {
+            if (elem < n.elem) {
                 if (n.esq == null) {
                     n.esq = new Nodo(elem);
+                } else {//n.esq != null
+                    insereRec(elem, n.esq);
                 }
-            } else {//n.esq != null
-                insereRec(elem, n.esq);
             }
         }
     }
