@@ -339,4 +339,24 @@ public class ArvoreTAD {
         }
     }
 
+    public int foo() {
+        return fooRec(this.raiz);
+    }
+    private int fooRec(Nodo n) {
+        if(n == null) {
+            return -1;
+        }
+        else {
+            int h1 = this.fooRec(n.esq) + 1;
+            int h2 = this.fooRec(n.dir) + 1;
+            if(h1 > h2) {
+                return h1;
+            }
+            else {
+                return h2;
+            }
+        }
+    }
+
+
 }
